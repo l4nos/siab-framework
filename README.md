@@ -1,27 +1,13 @@
-# Slim Framework 3 Skeleton Application
+# SIAB Framework
 
-Use this skeleton application to quickly setup and start working on a new Slim Framework 3 application. This application uses the latest Slim 3 with the PHP-View template renderer. It also uses the Monolog logger.
+Built on slim3 and rezi-php SDK.
 
-This skeleton application was built for Composer. This makes setting up a new Slim Framework application quick and easy.
+Install via Composer:
 
-## Install the Application
+<pre>composer install lanos/siab-skeleton</pre>
 
-Run this command from the directory in which you want to install your new Slim Framework application.
+Ensure you have minimim stablity set to dev on your composer.json file.
 
-    php composer.phar create-project slim/slim-skeleton [my-app-name]
+You can also create a project from scatch using this package.
 
-Replace `[my-app-name]` with the desired directory name for your new application. You'll want to:
-
-* Point your virtual host document root to your new application's `public/` directory.
-* Ensure `logs/` is web writeable.
-
-To run the application in development, you can run these commands 
-
-	cd [my-app-name]
-	php composer.phar start
-
-Run this command in the application directory to run the test suite
-
-	php composer.phar test
-
-That's it! Now go build something cool.
+<pre>composer create-project lanos/siab-skeleton [app-name]</pre>
